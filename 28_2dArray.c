@@ -15,6 +15,7 @@ void set2DArray(int row, int col){
         }
         printf("\n");
     }
+    free(arr);
     
 }
 
